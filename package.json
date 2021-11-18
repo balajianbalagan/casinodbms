@@ -1,0 +1,21 @@
+{
+  "name": "casinodbms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js",
+    "build:css" : "tailwind build src/styles.css -o public/css/styles.css"
+  },
+  "author": "balajianbalagan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
+    "pg": "^8.7.1",
+    "tailwindcss": "^2.2.19"
+  }
+}
